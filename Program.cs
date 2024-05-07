@@ -8,8 +8,7 @@ namespace CryptoLab_Course3
         static void Main(string[] args)
         {
             Console.WriteLine("Введiть рядок для хешування:");
-            //string input = Console.ReadLine();
-            string input = "cocos";
+            string input = Console.ReadLine();
 
             #region Adler32Lab1
             // https://hash.online-convert.com/ru/adler32-generator -для перевірки
